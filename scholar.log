@@ -61,3 +61,138 @@ INFO:werkzeug: * Debugger PIN: 290-725-503
 INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 14:46:12] "[37mGET /book?search=%27Perception%20of%20physical%20stability%20and%20center%20of%20mass%20of%203D%20objects%27 HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 14:46:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:05:34] "[37mGET /book?search=%27Shakespeare%27s%20Tragedies%20and%20Modern%20Critical%20Theory%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:08:11] "[37mGET /book?search=%27Tragic%20instance:%20the%20sequence%20of%20Shakespeare%27s%20tragedies%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:14:46] "[35m[1mGET /book?search=%27Tragic%20instance:%20the%20sequence%20of%20Shakespeare%27s%20tragedies%27 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:14:51] "[37mGET /book?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:14:51] "[37mGET /book?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:14:51] "[37mGET /book?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:14:51] "[37mGET /book?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:14:51] "[37mGET /book?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:14:52] "[37mGET /book?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:15:24] "[37mGET /book?search=%27Tragic%20instance:%20the%20sequence%20of%20Shakespeare%27s%20tragedies%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:15:57] "[35m[1mGET /book?search=%27Tragic%20instance:%20the%20sequence%20of%20Shakespeare%27s%20tragedies%27 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:16:01] "[37mGET /book?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:16:01] "[37mGET /book?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:16:01] "[37mGET /book?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:16:01] "[37mGET /book?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:16:01] "[37mGET /book?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:16:01] "[37mGET /book?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:16:25] "[37mGET /book?search=%27Tragic%20instance:%20the%20sequence%20of%20Shakespeare%27s%20tragedies%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:20:56] "[37mGET /book?search=%27Tragic%20instance:%20the%20sequence%20of%20Shakespeare%27s%20tragedies%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:24:17] "[37mGET /book?search=%27Language%20and%20power:%20An%20introduction%20to%20institutional%20discourse%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:31:10] "[37mGET /book?search=%27Language%20and%20power:%20An%20introduction%20to%20institutional%20discourse%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:32:28] "[35m[1mGET /book?search=%27Language%20and%20power:%20An%20introduction%20to%20institutional%20discourse%27 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:32:36] "[37mGET /book?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:32:36] "[37mGET /book?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:32:36] "[37mGET /book?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:32:38] "[37mGET /book?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:32:38] "[37mGET /book?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:32:38] "[37mGET /book?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:34:28] "[37mGET /book?search=%27Language%20and%20power:%20An%20introduction%20to%20institutional%20discourse%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2021 16:42:49] "[37mGET /book?search=%27Language%20and%20power:%20An%20introduction%20to%20institutional%20discourse%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:05:21] "[35m[1mGET /book?search=%27Shakespeare%27s%20Tragedies%20and%20Modern%20Critical%20Theory%27 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:05:24] "[37mGET /book?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:05:24] "[37mGET /book?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:05:24] "[37mGET /book?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:05:25] "[37mGET /book?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:05:25] "[37mGET /book?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:05:25] "[37mGET /book?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:08:26] "[37mGET /book?search=%27Shakespeare%27s%20Tragedies%20and%20Modern%20Critical%20Theory%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:08:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:42:41] "[37mGET /book?search=%27Shakespeare%27s%20Tragedies%20and%20Modern%20Critical%20Theory%27 HTTP/1.1[0m" 200 -
