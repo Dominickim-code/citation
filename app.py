@@ -1,10 +1,17 @@
 from scholarly import scholarly
 from flask import Flask, render_template, jsonify, request
+# import socketserver
+# import threading
+#
+# HOST = 'localhost'
+# PORT = 5000
+# lock = threading.Lock()
+#
+# app = Flask(__name__)
 
-app = Flask(__name__)
 
-client = Client('localhost',5000)
 # 'Perception of physical stability and center of mass of 3D objects'
+
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -27,11 +34,15 @@ def get_citation():
     pub_year = citation_info['bib']['pub_year']
     title = citation_info['bib']['title']
     pub_url = citation_info['pub_url']
+    venue = citation_info['bib']['venue']
+    abstract = citation_info['bib']['abstract']
 
     bib = {
         'author': author,
         'pub_year': pub_year,
         'title': title,
+        'venue': venue,
+        'abstract': abstract
     }
 
     """
@@ -61,16 +72,11 @@ def get_citation():
     }
     """
 
-    bib = ''
-
     # dict = scholarly.pprint(citation_info)
     # return render_template('index.html', result=dict)
     return jsonify({'result': 'success', 'citation': bib, 'pub_year': pub_year, 'title': title, 'author': author,
-                    pub_url:pub_url})
+                    pub_url: pub_url})
 
-
-# bib 값을 web화면에 출력해주기
-# 다지우기 버튼만 추가하기
 
 if __name__ == '__main__':
     app.run('0.0.0.0', port=5000, debug=True)

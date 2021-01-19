@@ -88,13 +88,11 @@
                         let pubYear = rows[i]['pubYear'];
                         let title = rows[i]['title'];
                         let pubUrl = rows[i]['pubUrl'];
-                        let venue = rows[i]['venue'];
                         let tempHtml = `<tr>
                                             <td>${author}</td>
                                             <td>${pubYear}</td>
                                             <td>${title}</td>
                                             <td>${pubUrl}</td>
-                                            <td>${venue}</td>
                                         </tr>`
                         $('#citation-info').append(tempHtml)
                     }
@@ -134,8 +132,7 @@
             <form class="form-inline">
                 <input id="keyword" class="Citation" type="search" placeholder="Enter the tiltle of Book"
                        aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
-                        onclick="sendCitationInfo(),sendCitationInfo()">Search
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="sendCitationInfo(),sendCitationInfo()">Search
                 </button>
                 <button onclick="removeTitles()">다지우기</button>
                 <table>
@@ -145,7 +142,6 @@
                             <td>publication year</td>
                             <td>Title</td>
                             <td>publication url</td>
-                            <td>venue</td>
                         </tr>
                     </thread>
                     <tbody id="citation-info">
