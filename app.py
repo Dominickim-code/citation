@@ -3,7 +3,7 @@ from flask import Flask, render_template, jsonify, request
 
 app = Flask(__name__)
 
-
+client = Client('localhost',5000)
 # 'Perception of physical stability and center of mass of 3D objects'
 @app.route('/')
 def home():

@@ -196,3 +196,5 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 290-725-503
 INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 22:42:41] "[37mGET /book?search=%27Shakespeare%27s%20Tragedies%20and%20Modern%20Critical%20Theory%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
