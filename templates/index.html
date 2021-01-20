@@ -26,20 +26,16 @@
             font-family: 'Gugi', cursive;
             margin: 10px auto;
             color: burlywood;
-            /*width: 300px;*/
-            /*height: 250px;*/
         }
 
         body {
-            background-image: url("https://www.careersinpoland.com/media/file/articles/thumbs/950x540_who-can-study-for-free-in-poland.jpg");
+            background-image: url("https://www.careersinpoland.com/media/file/articles/thumbs/950x540_who-can-study-for-free-in-poland.jpg"); /*background-image: url("https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2020/01/19/Dor9THzQTyTM637150470686905863.gif");*/
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
             justify-content: center;
             flex-direction: column;
             height: 400px;
-            /*opacity: 0.5;*/
-            /*background-position: 50% 50%;*/
         }
 
         .wrap {
@@ -75,12 +71,7 @@
             height: 300px;
             vertical-align: middle;
         }
-    </style>
 
-    <style type="text/css">
-        div.question-box {
-            margin: 10px 0 20px 0;
-        }
     </style>
     <script>
         $(document).ready(function () {
@@ -92,52 +83,35 @@
 
             $.ajax({
                 type: "GET",
-                url: `/book2?search=${keyword}`,
+                url: `/book?search=${keyword}`,
                 data: {},
                 success: function (response) {
                     console.log('working');
+                    console.log(response);
 
-                    console.log(response)
+                    let author = response['author'];
+                    let title = response['title'];
+                    let pub_year = response['pub_year'];
+                    let venue = response['venue'];
+                    let location = response['location'];
 
-                    let rows = response["sendCitationInfo"]["row"];
-                    for (let i = 0; i < rows.length; i++) {
-                        let author = rows[i]['author'];
-                        let title = rows[i]['title'];
-                        let venue = rows[i]['venue'];
-                        let pubYear = rows[i]['pubYear'];
-                        let pubUrl = rows[i]['pubUrl'];
-                        let tempHtml = `<tr>
+                    let tempHtml = `<tr>
                                             <td>${author}</td>
                                             <td>${title}</td>
+                                            <td>${pub_year}</td>
                                             <td>${venue}</td>
-                                            <td>${pubYear}</td>
-                                            <td>${pubUrl}</td>
-
+                                            <td>${location}</td>
                                         </tr>`
-                        $('#citation-info').append(tempHtml)
-                    }
+                    $('#citation-info').append(tempHtml)
+
                 }
             })
         }
 
-        // function showCitation() {
-        //     // 1. input-name 값을 가져온다.
-        //     let newCitation = $('#keyword').val();
-        //     if (newCitation == '') {
-        //         alert('이름을 입력하세요');
-        //         return;
-        //     }
-        //
-        //     let tempHtml = `<td>${newTitle}</td>`;
-        //
-        //     $('#citations').append(tempHtml);
-        // }
-
         function removeTitles() {
 
-            $('#titles').empty();
+            $('#citation-info').empty();
         }
-
 
     </script>
 
@@ -150,32 +124,27 @@
         <p class="lead">Auto Making Citation</p>
 
         <nav class="navbar navbar-light bg-light">
-            <form class="form-inline">
-                <input id="keyword" class="Citation" type="search" placeholder="Enter the tiltle of Book"
-                       aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
-                        onclick="sendCitationInfo()">Search
-                </button>
-                <button onclick="removeTitles()">다지우기</button>
-                <table>
-                    <thread>
-                        <tr>
-                            <td>Author</td>
-                            <td>Title</td>
-                            <td>venue</td>
-                            <td>publication year</td>
-                            <td>publication url</td>
+            <input id="keyword" class="Citation" placeholder="Enter the tiltle of Book">
+            <button class="btn btn-outline-success my-2 my-sm-0" onclick="sendCitationInfo()">Search</button>
+            <button onclick="removeTitles()">다지우기</button>
+            <table>
+                <thread>
+                    <tr>
+                        <td>Author</td>
+                        <td>Title</td>
+                        <td>publication year</td>
+                        <td>venue</td>
+                        <td>publisher</td>
 
-                        </tr>
-                    </thread>
-                    <tbody id="citation-info">
-                    </tbody>
-                </table>
+                    </tr>
+                </thread>
+                <tbody id="citation-info">
+                </tbody>
+            </table>
 
-                <table border=1 style='border-collapse: collapse'>
-                </table>
+            <table border=1 style='border-collapse: collapse'>
+            </table>
 
-            </form>
         </nav>
     </div>
 </div>
