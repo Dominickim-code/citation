@@ -30,7 +30,7 @@
             /*height: 250px;*/
         }
 
-        body{
+        body {
             background-image: url("https://www.careersinpoland.com/media/file/articles/thumbs/950x540_who-can-study-for-free-in-poland.jpg");
             background-repeat: no-repeat;
             background-size: cover;
@@ -41,6 +41,7 @@
             /*opacity: 0.5;*/
             /*background-position: 50% 50%;*/
         }
+
         .wrap {
             height: 100%;
             text-align: center;
@@ -91,9 +92,12 @@
 
             $.ajax({
                 type: "GET",
-                url: `/book?search=${keyword}`,
+                url: `/book2?search=${keyword}`,
                 data: {},
                 success: function (response) {
+                    console.log('working');
+
+                    console.log(response)
 
                     let rows = response["sendCitationInfo"]["row"];
                     for (let i = 0; i < rows.length; i++) {
@@ -112,21 +116,22 @@
                                         </tr>`
                         $('#citation-info').append(tempHtml)
                     }
-                })
+                }
+            })
         }
 
-        function showCitation() {
-            // 1. input-name 값을 가져온다.
-            let newCitation = $('#keyword').val();
-            if (newCitation == '') {
-                alert('이름을 입력하세요');
-                return;
-            }
-
-            let tempHtml = `<td>${newTitle}</td>`;
-
-            $('#citations').append(tempHtml);
-        }
+        // function showCitation() {
+        //     // 1. input-name 값을 가져온다.
+        //     let newCitation = $('#keyword').val();
+        //     if (newCitation == '') {
+        //         alert('이름을 입력하세요');
+        //         return;
+        //     }
+        //
+        //     let tempHtml = `<td>${newTitle}</td>`;
+        //
+        //     $('#citations').append(tempHtml);
+        // }
 
         function removeTitles() {
 
@@ -149,7 +154,7 @@
                 <input id="keyword" class="Citation" type="search" placeholder="Enter the tiltle of Book"
                        aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
-                        onclick="sendCitationInfo(),sendCitationInfo()">Search
+                        onclick="sendCitationInfo()">Search
                 </button>
                 <button onclick="removeTitles()">다지우기</button>
                 <table>
@@ -166,21 +171,6 @@
                     <tbody id="citation-info">
                     </tbody>
                 </table>
-
-                <!--            <table border=1 style='border-collapse: collapse'>-->
-                <!--                {%  for key, value in result.items()%}-->
-                <!--                <tr>-->
-                <!--                    <th>{{ key }}</th>-->
-                <!--                    <td>{{ value }}</td>-->
-                <!--                </tr>-->
-                <!--                {% endfor %}-->
-                <!--                {% for key, value in result.items() %}-->
-                <!--                    {% if key =='bib'%}-->
-                <!--                        {%for bibKey, bibValue in key.items()%}-->
-                <!--                        {% endfor %}-->
-                <!--                    {% endif %}-->
-                <!--                {% endfor %}-->
-                <!--            </table>-->
 
                 <table border=1 style='border-collapse: collapse'>
                 </table>
