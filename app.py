@@ -6,8 +6,8 @@ from flask import Flask, render_template, jsonify, request
 # HOST = 'localhost'
 # PORT = 5000
 # lock = threading.Lock()
-#
-# app = Flask(__name__)
+
+app = Flask(__name__)
 
 
 # 'Perception of physical stability and center of mass of 3D objects'
@@ -73,9 +73,9 @@ def get_citation():
     """
 
     # dict = scholarly.pprint(citation_info)
-    # return render_template('index.html', result=dict)
+    #  return render_template('index.html')
     return jsonify({'result': 'success', 'citation': bib, 'pub_year': pub_year, 'title': title, 'author': author,
-                    pub_url: pub_url})
+                    'venue': venue,pub_url: pub_url})
 
 
 if __name__ == '__main__':

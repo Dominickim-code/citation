@@ -303,3 +303,18 @@ INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [20/Jan/2021 01:09:14] "[37mGET /book?search=%27The%20tragic%20world\u2014\u2014A%20reinterpretation%20of%20the%20four%20shakespearean%20tragedies%27 HTTP/1.1[0m" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\18550\\Desktop\\sparta\\citation\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2021 14:11:19] "[37mGET /book?search=%27Principles%20of%20pragmatics%27 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2021 14:11:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

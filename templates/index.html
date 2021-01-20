@@ -25,13 +25,22 @@
         * {
             font-family: 'Gugi', cursive;
             margin: 10px auto;
+            color: burlywood;
             /*width: 300px;*/
-            /*height: 60px;*/
+            /*height: 250px;*/
         }
 
+        body{
+            background-image: url("https://www.careersinpoland.com/media/file/articles/thumbs/950x540_who-can-study-for-free-in-poland.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*opacity: 0.5;*/
+            /*background-position: 50% 50%;*/
+        }
         .wrap {
             height: 100%;
             text-align: center;
+            
         }
 
         .wrap::before {
@@ -82,19 +91,20 @@
                 data: {},
                 success: function (response) {
 
-                    let rows = response["rentBikeStatus"]["row"];
+                    let rows = response["sendCitationInfo"]["row"];
                     for (let i = 0; i < rows.length; i++) {
                         let author = rows[i]['author'];
-                        let pubYear = rows[i]['pubYear'];
                         let title = rows[i]['title'];
-                        let pubUrl = rows[i]['pubUrl'];
                         let venue = rows[i]['venue'];
+                        let pubYear = rows[i]['pubYear'];
+                        let pubUrl = rows[i]['pubUrl'];
                         let tempHtml = `<tr>
                                             <td>${author}</td>
-                                            <td>${pubYear}</td>
                                             <td>${title}</td>
-                                            <td>${pubUrl}</td>
                                             <td>${venue}</td>
+                                            <td>${pubYear}</td>
+                                            <td>${pubUrl}</td>
+
                                         </tr>`
                         $('#citation-info').append(tempHtml)
                     }
@@ -142,10 +152,11 @@
                     <thread>
                         <tr>
                             <td>Author</td>
-                            <td>publication year</td>
                             <td>Title</td>
-                            <td>publication url</td>
                             <td>venue</td>
+                            <td>publication year</td>
+                            <td>publication url</td>
+
                         </tr>
                     </thread>
                     <tbody id="citation-info">
