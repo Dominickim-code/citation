@@ -755,3 +755,15 @@ INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 290-725-503
 INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2021 00:58:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2021 00:59:08] "[37mGET /book?search=Vision%20and%20rhetoric%20in%20Shakespeare:%20looking%20through%20language HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 290-725-503
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2021 01:04:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2021 01:04:28] "[37mGET /book?search=The%20Literary%20Language%20of%20Shakespeare%20(by%20SS%20Hussey);%20Shakespeare%27s%20Language:%20An%20Introduction%20(by%20NF%20Blake) HTTP/1.1[0m" 200 -
